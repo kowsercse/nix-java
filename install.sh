@@ -1,2 +1,11 @@
-wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-linux-x64.tar.gz
-wget http://apache.cs.utah.edu/tomcat/tomcat-8/v8.0.15/bin/apache-tomcat-8.0.15.tar.gz
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
+wget http://ftp.wayne.edu/apache/tomcat/tomcat-8/v8.0.21/bin/apache-tomcat-8.0.21.tar.gz
+wget http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz
+wget http://dl.bintray.com/groovy/maven/groovy-binary-2.4.3.zip
+wget https://services.gradle.org/distributions/gradle-2.3-bin.zip
+
+tar -xvzf jdk-8u40-linux-x64.tar.gz
+tar -xvzf apache-tomcat-8.0.21.tar.gz
+tar -xvzf apache-maven-3.3.1-bin.tar.gz
+unzip groovy-binary-2.4.3.zip
+unzip gradle-2.3-bin.zip
