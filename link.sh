@@ -16,5 +16,5 @@ installations[pig]=pig-0.14.0
 
 cd /opt
 for key in ${!installations[@]}; do
-	sudo ln -s $home/downloads/$installations[${key}] $key
+	sudo ln -s $home/downloads/${installations[${key}]} $key
 done
